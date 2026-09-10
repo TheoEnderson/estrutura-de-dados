@@ -1,0 +1,66 @@
+# ==============================================================================
+# Git Ignore - Projetos em C / Estruturas de Dados
+# ==============================================================================
+
+# Executáveis e Binários
+*.exe
+*.out
+*.bin
+*.app
+*.elf
+
+# Executáveis compilados nos diretórios dos projetos
+/arvore-binaria/arvore_binaria
+/autocompletar/autocompletar
+/biblioteca/biblioteca
+/controle-de-senha/controle_de_senha
+/dicionario/dicionario
+/engenho-de-busca/engenho_de_busca
+/loteria/loteria
+/poxim-db/poximdb
+/poxim-db/poximdbplus
+/propagacao/propagacao
+/rede-social/rede_social
+/sistema-de-impressao/sistema_de_impressao
+
+# Arquivos objeto e bibliotecas
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Profiling e Cobertura de Código (gprof, gcov)
+gmon.out
+*.gcno
+*.gcda
+*.gcov
+
+# Depuração e Símbolos
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Diretórios de Build
+build/
+bin/
+dist/
+
+# IDEs e Editores de Código
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+.clangd/
+.ccls-cache/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+

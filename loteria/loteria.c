@@ -1,3 +1,12 @@
+/**
+ * @file loteria.c
+ * @brief Sistema de apuração de apostas com Heaps (Min/Max Heap) e Bitsets.
+ *
+ * Realiza apuração de bilhetes com verificação rápida em nível de bits (bitsets)
+ * e seleção/ordenação dos maiores pontuadores utilizando estruturas Heap (Max-Heap / Min-Heap).
+ */
+
+#define _POSIX_C_SOURCE 200809L
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>

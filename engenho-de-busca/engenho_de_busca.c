@@ -1,3 +1,12 @@
+/**
+ * @file engenho_de_busca.c
+ * @brief Engenho de busca e balanceamento de carga com Hashing / Tabela Hash.
+ *
+ * Utiliza funções de dispersão com primos grandes (P1, P2) e técnica de duplo hashing
+ * para distribuir e mapear requisições entre múltiplos servidores com alta uniformidade.
+ */
+
+#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

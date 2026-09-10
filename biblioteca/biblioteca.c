@@ -1,3 +1,12 @@
+/**
+ * @file biblioteca.c
+ * @brief Gerenciador de acervo bibliográfico com Insertion Sort e Busca Binária.
+ *
+ * Implementa ordenação de registros por ISBN via Insertion Sort e recuperação eficiente
+ * através de Busca Binária (iterativa e recursiva), com métricas de passos e complexidade.
+ */
+
+#define _POSIX_C_SOURCE 200809L
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

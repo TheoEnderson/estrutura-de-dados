@@ -1,3 +1,11 @@
+/**
+ * @file arvore_binaria.c
+ * @brief Implementação de Árvore Binária de Busca (BST) para indexação de registros.
+ *
+ * Estrutura de dados hierárquica baseada em ordenação lexicográfica de rótulos.
+ * Suporta inserção dinâmica, busca, e travessias em pré-ordem, em-ordem e pós-ordem.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

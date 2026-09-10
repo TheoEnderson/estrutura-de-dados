@@ -1,3 +1,10 @@
+/**
+ * @file autocompletar.c
+ * @brief Sistema de Autocompletar / Busca por Prefixo (Árvore Trie / Estruturas de Prefixo).
+ *
+ * Módulo de processamento de consultas de autocompletar baseadas em arquivos de entrada e saída.
+ */
+
 #include <stdint.h>
 #include <inttypes.h>
 #include <stdlib.h>
@@ -17,7 +24,8 @@ int main(int argc, char **argv) {
     FILE *out = fopen(argv[2], "w");
     if (!in || !out) {
         fprintf(stderr, "Falha ao abrir arquivo(s).\n");
-        if (in) fclose(in); if (out) fclose(out);
+        if (in) fclose(in);
+        if (out) fclose(out);
         return 1;
     }
 

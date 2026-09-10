@@ -1,3 +1,12 @@
+/**
+ * @file controle_de_senha.c
+ * @brief Sistema de atendimento e controle de senhas com Fila de Prioridade (Heap Binário).
+ *
+ * Gerencia múltiplos órgãos e atendentes utilizando filas de prioridade baseadas em Heap,
+ * considerando critérios de prioridade legal, idade e ordem de chegada para desempate.
+ */
+
+#define _POSIX_C_SOURCE 200809L
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>

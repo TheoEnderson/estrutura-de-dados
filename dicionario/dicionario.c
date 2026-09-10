@@ -1,3 +1,11 @@
+/**
+ * @file dicionario.c
+ * @brief Dicionário de Sinônimos implementado com Árvore AVL Auto-Balanceada.
+ *
+ * Mantém termos léxicos e seus respectivos sinônimos ordenados em uma árvore AVL,
+ * garantindo operações de inserção, busca e rotações de balanceamento em tempo O(log n).
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

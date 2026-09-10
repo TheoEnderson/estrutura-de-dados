@@ -1,3 +1,11 @@
+/**
+ * @file poximdbplus.c
+ * @brief Sistema de banco de dados baseado em Árvore B+ (B+ Tree).
+ *
+ * Implementa estrutura de Árvore B+ com nós folha encadeados sequencialmente,
+ * permitindo buscas pontuais rápidas e varreduras por faixa (range queries) altamente eficientes.
+ */
+
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>

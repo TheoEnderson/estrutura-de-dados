@@ -1,3 +1,11 @@
+/**
+ * @file poximdb.c
+ * @brief Sistema de banco de dados baseado em Árvore B (B-Tree).
+ *
+ * Implementa estrutura de Árvore B de ordem parametrizável para armazenamento
+ * e busca rápida de registros com chave hash e controle de divisão de nós (split).
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>

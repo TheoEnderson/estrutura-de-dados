@@ -1,3 +1,11 @@
+/**
+ * @file sistema_de_impressao.c
+ * @brief Gerenciador de fila de impressão com Pilhas (LIFO) e Filas (FIFO).
+ *
+ * Simula agendamento de documentos e balanceamento de carga entre múltiplas impressoras,
+ * calculando tempos de espera e conclusão por ordem de prioridade temporal.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

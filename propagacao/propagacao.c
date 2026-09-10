@@ -1,3 +1,10 @@
+/**
+ * @file propagacao.c
+ * @brief Algoritmos de Propagação em Redes e Grafos (BFS / DFS / Fluxo).
+ *
+ * Módulo para processamento e análise de propagação de sinais ou infecções em topologias de grafos.
+ */
+
 #include <stdint.h>
 #include <inttypes.h>
 #include <stdlib.h>
@@ -17,7 +24,8 @@ int main(int argc, char **argv) {
     FILE *out = fopen(argv[2], "w");
     if (!in || !out) {
         fprintf(stderr, "Falha ao abrir arquivo(s).\n");
-        if (in) fclose(in); if (out) fclose(out);
+        if (in) fclose(in);
+        if (out) fclose(out);
         return 1;
     }
 

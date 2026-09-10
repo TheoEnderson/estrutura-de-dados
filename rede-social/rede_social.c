@@ -1,3 +1,11 @@
+/**
+ * @file rede_social.c
+ * @brief Gerenciamento de conexões em rede social com Lista Duplamente Encadeada Circular.
+ *
+ * Implementa estrutura linear duplamente ligada circular com nó sentinela para manipulação
+ * dinâmica, busca, inserção e remoção de membros e suas conexões sociais.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
